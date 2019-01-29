@@ -12,8 +12,9 @@ hour1 = 3
 hour2 = 6
 
 
+
 def warthunder():
-    os.startfile("E:\Program Files (86x)\steamapps\common\War Thunder\launcher.exe")
+    os.startfile("E:\Program Files (86x)\steamapps\common\War Thunder\launcher.exe")#Path to launcher.exe here
     time.sleep(200)
     pyautogui.press('enter')
     time.sleep(40)
@@ -91,5 +92,5 @@ def wait():
             #    print('Value not recognized, try again dickwad')
             #    wait()
             #time.sleep(7200)
-            #hour()
-wait()
+if __name__ == '__main__':
+    main()
