@@ -65,32 +65,5 @@ def wait():
                     warthunder()
                     killProcess()
                     shutdown()
-            #ask = int(input("You\'ve selected the program to run between the hours "+ str(hour1) + " and " +str(hour2) + ". Unfortunatly, it's hour " + str(now.hour) +" right now. What would you like to do? (Select number and hit enter) \n 1) Run anyways \n 2) Wait 3 hours \n 3) Close \n"))
-            #if ask == '1':
-            #    close = input("Close War Thunder afterwords? (Y/N)")
-            #    if close == 'Y' or 'y' or 'yes' or 'Yes':
-            #        shutdownComputer = input("Would you like to turn your computer off afterword?")
-            #        if shutdownComputer == 'Y' or 'y' or 'yes' or 'Yes':
-            #            warthunder()
-            #            killProcess()
-            #            shutdown()
-            #        elif shutdownComputer == 'N' or 'n' or 'No' or 'no':
-            #            warthunder()
-            #            killprocess()
-            #        else:
-            #            print('Answer not recognized')
-            #            wait()
-            #    if close == 'N' or 'n' or 'No' or 'no':
-            #        warthunder()
-            #elif ask == '2':
-            #    print('waiting...')
-            #    time.sleep(7200)
-            #    wait()
-            #elif ask == '3':
-            #    break
-            #else:
-            #    print('Value not recognized, try again dickwad')
-            #    wait()
-            #time.sleep(7200)
 if __name__ == '__main__':
     main()
